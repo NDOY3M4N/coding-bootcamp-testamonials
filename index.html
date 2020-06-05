@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="NDOY3M4N">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <div class="hero__img">
+        <img />
+        <div class="hero__btn">
+          <button id="prev-btn" onclick="changeContent(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18"><path fill="none" stroke="#8585AC" stroke-width="3" d="M11 1L3 9l8 8"/></svg>
+          </button>
+          <button id="next-btn" onclick="changeContent(1)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18"><path fill="none" stroke="#8585AC" stroke-width="3" d="M2 1l8 8-8 8"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="hero__text">
+        <p class="hero__desc"></p>
+        
+        <div class="person">
+          <span class="person__name"></span>
+          <span class="person__title"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/NDOY3M4N">Abdoulaye NDOYE</a>.
+  </footer> -->
+</body>
+</html>
